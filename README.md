@@ -7,7 +7,7 @@
 ## 下準備など
 
 * BacklogやSlack側の設定は元記事をご確認ください
-* 元記事にある環境変数は、 [serverless.yml](serverless.yml) の中に記述します。
+* 元記事にある環境変数は、 [serverless.yml](serverless.yml#L17) の中に記述します。
 * Serverless Framework の環境設定を済ませておいてください。
 * AWS環境はCLIのデフォルト設定を使います。あらかじめCLIを使えるようにしておいてください。
 
