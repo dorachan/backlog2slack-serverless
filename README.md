@@ -32,7 +32,7 @@ sls deploy
 
 ### 元記事の index.js
 
-```
+```js
   if(event.room && event.requestParameters){
     // 通知先チャンネル取得
     console.log('room='+event.room);
@@ -44,7 +44,7 @@ sls deploy
 
 ### 修正後の index.js
 
-```
+```js
   if (event.pathParameters.room && event.body) {
     // 通知先チャンネル取得
     room = event.pathParameters.room;
