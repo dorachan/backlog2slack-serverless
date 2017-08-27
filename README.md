@@ -20,7 +20,7 @@ sls deploy
 ```
 
 * Lambda関数のデプロイ、ロールの設定、API Gatewayの設定がまとめて完了します。AWSコンソールで操作する必要はありません。
-* API URLはデプロイ後に表示されますのでそれを Backlog WebHook に設定してください。
+* API URLはデプロイ後に表示されます。それを親記事に従い Backlog WebHook に設定してください。
 
 ## 削除
 
