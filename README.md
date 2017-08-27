@@ -4,14 +4,14 @@
 
 これをほぼそのまま Serverless Framework でデプロイします
 
-# 下準備など
+## 下準備など
 
 * BacklogやSlack側の設定は元記事をご確認ください
 * 元記事にある環境変数は、 serverless.yml の中に記述します。
 * Serverless Framework の環境設定を済ませておいてください。
 * AWS環境はCLIのデフォルト設定を使います。あらかじめCLIを使えるようにしておいてください。
 
-# デプロイ
+## デプロイ
 
 ```
 npm install
