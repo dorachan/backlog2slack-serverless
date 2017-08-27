@@ -9,7 +9,7 @@ http://qiita.com/kosuge/items/051922673cf57203f8db
 
 * BacklogやSlack側の設定は元記事をご確認ください
 * 元記事にある環境変数は、 [serverless.yml](serverless.yml#L17) の中に記述します。
-* Serverless Framework の環境設定を済ませておいてください。
+* [Serverless Framework](https://serverless.com/framework/) の環境設定を済ませておいてください。
 * AWS環境はCLIのデフォルト設定を使います。あらかじめCLIを使えるようにしておいてください。
 
 ## デプロイ
