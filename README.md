@@ -17,3 +17,28 @@
 npm install
 sls deploy
 ```
+
+## 修正箇所
+
+### 元記事の index.js
+
+```
+  if(event.room && event.requestParameters){
+    // 通知先チャンネル取得
+    console.log('room='+event.room);
+    room = event.room;
+    // json整形・メッセージ作成
+    body = event.requestParameters;
+```
+
+
+### 修正後の index.js
+
+```
+  if (event.pathParameters.room && event.body) {
+    // 通知先チャンネル取得
+    room = event.pathParameters.room;
+    console.log('room:', room);
+    // json整形・メッセージ作成
+    body = JSON.parse(event.body);
+```
