@@ -1,4 +1,4 @@
-# backlog2slack
+# backlog2slack-serverless
 
 元記事: Backlog通知をサーバレス構成でslackに飛ばす on @Qiita http://qiita.com/kosuge/items/051922673cf57203f8db
 
