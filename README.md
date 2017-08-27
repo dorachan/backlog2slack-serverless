@@ -1,6 +1,7 @@
 # backlog2slack-serverless
 
-元記事: Backlog通知をサーバレス構成でslackに飛ばす on @Qiita http://qiita.com/kosuge/items/051922673cf57203f8db
+元記事: Backlog通知をサーバレス構成でslackに飛ばす on @Qiita
+http://qiita.com/kosuge/items/051922673cf57203f8db
 
 これをほぼそのまま Serverless Framework でデプロイします
 
@@ -18,7 +19,16 @@ npm install
 sls deploy
 ```
 
-## 修正箇所
+* Lambda関数のデプロイ、ロールの設定、API Gatewayの設定がまとめて完了します。AWSコンソールで操作する必要はありません。
+* API URLはデプロイ後に表示されますのでそれを Backlog WebHook に設定してください。
+
+## 削除
+
+`sls remove`
+
+* デプロイしたものが全て削除されます
+
+## ソースファイルの修正箇所
 
 ### 元記事の index.js
 
